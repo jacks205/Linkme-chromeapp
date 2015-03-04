@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linkme",
+  "description": "Linkme is a utility app that helps the common problem of the inability to copy/paste text cross-platform.",
+  "version": "0.0.1",
+  "permissions": [],
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://code.jquery.com/jquery-2.1.1.min.js; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js; object-src 'self'",
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "index.html"
+  }
+}
