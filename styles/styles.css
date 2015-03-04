@@ -1,0 +1,6 @@
+textarea#text-input{
+  width: 256px;
+  height: 128px;
+  resize: none;
+  overflow: auto;
+}
